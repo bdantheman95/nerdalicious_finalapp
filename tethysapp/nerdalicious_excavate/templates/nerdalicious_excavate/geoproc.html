@@ -8,7 +8,8 @@
 {% endblock %}
 
 {% block app_content %}
-<h1>Welcome to the #Nerdalicious Excavate App Home Page!</h1>
+  <h1>Welome to the Geoprocessing Service Page!</h1>
+
 {% endblock %}
 
 {# Use the after_app_content block for modals #}
@@ -36,4 +37,9 @@
 {% endblock %}
 
 {% block app_actions %}
+  {% gizmo save_button %}
+  {% gizmo edit_button %}
+  {% gizmo remove_button %}
+  {% gizmo previous_button %}
+  {% gizmo next_button %}
 {% endblock %}
